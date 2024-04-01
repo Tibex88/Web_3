@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+p{
+    color:white;
+}
+
+/* body { */
+	/* border: 5px solid red; */
+	/* border: 15px solid #be0910; */
+	/* border: 10px solid; */
+	/* border-image: linear-gradient(to right, transparent 50%, black 50%) 1; */
+	/* background: #181920; */
+	/* background: #24252a; */
+	/* background: #1a191e; */
+	/* background: url('./bg.png'); */
+	/* background-size: contain; */
+	/* background-repeat: no-repeat; */
+	/* background-position: sticky; */
+	/* background-attachment: fixed; */
+	/* background-position: center; */
+	/* height: 100%; */
+	/* padding: 10px; */
+/* } */
+
+img,svg {
+    height:100px;
+    width:100px;
+}
+body {
+	background: url('./bg.png');
+    background-color:#1a191e;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.img{
+    height:50%;
+    width:5.132067px; 
+    /* height:175.783932px;  */
+
+}
+
+.line{
+    border:1px solid #be0910;
+    width:100px;
+    height:0px
+}
+
+.container{
+    /* border:2px solid blue; */
+    /* height:100%; */
+    display:flex;
+    position:relative;
+    height:100vh;
+}
+
+.border{
+    position:absolute;
+}
+
+.one{
+inset:0;
+/* outline:2px solid red; */
+}
+.two{
+    bottom:0;
+    transform-origin:center;
+    transform: scaleY(-1);
+    /* rotate:180deg; */
+    /* outline:2px solid red; */
+    width:fit-content;
+}
+.three{
+    /* outline:2px solid red; */
+    transform: scalEX(-1);
+    right:0;
+}
+.four{
+    /* outline:2px solid red; */
+    right:0;
+    bottom:0;
+    rotate:180deg;
+}
+
+.image{
+    aspect-ratio:auto;
+}
+
+.diamond{
+    width:100px;
+    aspect-ratio:1;
+    border:2px solid red;
+}
+
+.square{
+    width:10px;
+    aspect-ratio:1;
+    background:#a17e48;
+    rotate:45deg;
+    /* border:2px solid ; */
+}
+
+.lamp{
+    width:100px;
+    border:2px solid red;
+    display:block;
+    margin:auto;
+    animation:sway 2.5s infinite linear;
+}
+
+
+@keyframes sway {
+    0% {
+        transform: rotate(0);
+        transform-origin: top center;
+    }
+    25% {
+        transform: rotate(-10deg);
+        transform-origin: top center;
+    }
+    50% {
+        transform: rotate(10deg);
+        transform-origin: top center;
+    }
+    100% {
+        transform: rotate(0);
+        transform-origin: top center;
+    }
+}
