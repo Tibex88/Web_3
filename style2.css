@@ -78,7 +78,7 @@ inset:0;
 }
 .three{
     /* outline:2px solid red; */
-    transform: scalEX(-1);
+    transform: scaleX(-1);
     right:0;
 }
 .four{
