@@ -1,3 +1,8 @@
+
+<script setup>
+import Button from './Button.vue';
+</script>
+
 <template>
     
     <!-- <div class="fixed"> -->
@@ -42,7 +47,7 @@
             <p>Learn</p>
             </div>
             <!-- <p>Learn</p> -->
-            <button class="bg-transparent outline rounded-none whitespace-wrap md:whitespace-nowrap text-xs">Connect wallet</button>
+            <Button label="Connect Wallet" />
         </div> 
         </div>
         </div>

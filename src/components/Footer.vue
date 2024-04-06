@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-lime-500 text-center p-10 md:p-24 pb-0 flex flex-col justify-center items-center">
+    <div class="text-center p-10 md:pb-0 flex gap-5 flex-col justify-center items-center">
 
         
         <img src="./../assets//pot3.png" class="h-10 w-10" alt="">
@@ -8,9 +8,16 @@
         </p>
 
         <!-- socials -->
-
+        <div class="outline w-full flex gap-16 text-lg justify-center p-3">
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>
+            <fa class="cursor-pointer"icon="bars"/>   
+        </div>
         <div class="">
-            <p>   instagram  </p>
 
             <div class="outline w-screen px-6 py-4 flex justify-between">
                 <p class="cwhitespace-nowrap">
@@ -18,8 +25,8 @@
                     <span class="cwhitespace-nowrap block md:inline"> All rights reserved </span> 
                 </p>
 
-                <div class="grid grid-cols-3 items-center gap-5 divide-x outline">
-                    <div>01</div>
+                <div class="grid grid-cols-3 items-center gap-5 divide-x ">
+                    <div>Terms and Conditions</div>
                     <div>02</div>
                     <div>03</div>
                 </div>
