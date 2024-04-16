@@ -43,6 +43,9 @@ import Button from './Button.vue';
         <!-- end of nav -->
         <div class="flex justify-between items-center w-full">
             <div class="flex justify-end w-full gap-10 pr-8">
+            <router-link 
+            class="text-red-500 cursor-pointer"
+            :to="{name:'profile'}">Profile</router-link>
             <p>Learn</p>
             <p>Learn</p>
             </div>

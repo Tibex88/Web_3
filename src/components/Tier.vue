@@ -1,9 +1,6 @@
 <template>
 
-<div class="flex">
-
         <div 
-        v-for="i in 3"
         class="w-full md:w-1/2 lg:w-1/3 p-4" >
                 <div class="relative pt-16 px-10 pb-52 h-full bg-gradient-radial-dark border border-gray-800  rounded-5xl">
                   <div class="relative z-10" >
@@ -14,6 +11,5 @@
                   <!-- <img class="absolute right-0 bottom-0" src="nightsable-assets/images/cards/card-blur.svg" alt="" data-config-id="auto-img-2-2" 0.1"> -->
                 </div>
         </div>
-    </div>            
             
 </template>

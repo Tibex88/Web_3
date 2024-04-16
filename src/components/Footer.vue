@@ -9,7 +9,9 @@
 
         <!-- socials -->
         <div class="outline w-full flex gap-16 text-lg justify-center p-3">
-            <fa class="cursor-pointer"icon="bars"/>
+            <fa
+            @click="console.log('bar footer')"
+            class="cursor-pointer"icon="bars"/>
             <fa class="cursor-pointer"icon="bars"/>
             <fa class="cursor-pointer"icon="bars"/>
             <fa class="cursor-pointer"icon="bars"/>
