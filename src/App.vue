@@ -9,14 +9,14 @@ import Wallet from './components/Wallet.vue'
 </script>
 
 <template>
-  <div class="w-screen h-full bg-[url('./assets/bg.png')] bg-no-repeat bg-contain bg-fixed bg-center pointer-events-none">
+  <div class="w-screen h-full overflow-y-scroll bg-[url('./assets/bg.png')] bg-no-repeat bg-contain bg-fixed bg-center pointer-events-none">
     
-  <!-- <div class="  sticky "> -->
+  <div class="  fixed w-full z-[99999] cbg-red-500 backdrop-filter backdrop-blur-lg ">
       <Decor />
       <Nav />
-  <!-- </div> -->
+  </div>
 
-  <div class="max-w-[1200px] m-auto flex flex-col gap-10 mt-10 ">
+  <div class="max-w-[1200px] pt-32 md:pt-44 m-auto flex flex-col gap-10 mt-10 ">
       
     <div class="coutline h-fit flex flex-1">
           <div class=" bg-blue-500 aspect-square w-full [] flex items-center justify-center">
@@ -30,9 +30,9 @@ import Wallet from './components/Wallet.vue'
     </div>
     
     
-    <div class="outline h-20 flex flex-1 flex-col md:flex-row text-center">
+    <div class="coutline h-20 flex flex-1 flex-col md:flex-row text-center">
         
-      <div class="outline cbg-red-500 p-2 aspect-square w-full flex flex-col gap-2 items-center justify-center">
+      <div class="coutline cbg-red-500 p-2 aspect-square w-full flex flex-col gap-2 items-center justify-center">
 
           <img src="./assets/pot3.png" class="aspect-auto h-24" alt="">
           
