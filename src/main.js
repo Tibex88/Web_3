@@ -3,6 +3,7 @@ import App from './App.vue'
 import './style.css'
 import { createMemoryHistory, createRouter } from 'vue-router'
 import Profile from './views/Profile.vue'
+import IDO from './views/IDO.vue'
 import Home from './views/Home.vue'
 
 //icons
@@ -15,13 +16,13 @@ const app = createApp(App)
 const router = createRouter({
   history:createMemoryHistory(),
   routes:[
-    { path:'/',name:'home', component:Profile },
-    { path:'/profile',name:'profile',component:Profile }
-    // { path:'/',name:'home' }
+    { path:'/',name:'home', component:Home },
+    { path:'/profile',name:'profile',component:Profile },
+    { path:'/ido',name:'ido',component:IDO, paramas:true }
   ]  
 })
 
 library.add(fas)
 app.component('fa', FontAwesomeIcon)
 app.use(router)
-app.mount('#app')
+app.mount('body')

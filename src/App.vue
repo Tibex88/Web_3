@@ -8,7 +8,7 @@ import Footer from './components/Footer.vue';
 
 <template>
 
-  <div class="w-screen h-full overflow-y-scroll bg-[url('./assets/bg.png')] bg-no-repeat bg-contain bg-fixed bg-center pointer-events-none">
+  <div class="w-screen h-screen overflow-y-scroll bg-[url('./assets/bg.png')] bg-no-repeat bg-contain bg-fixed bg-center">
     
   <div class="  fixed w-full z-[9] cbg-red-500 backdrop-filter backdrop-blur-lg ">
       <Decor />

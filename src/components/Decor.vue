@@ -16,7 +16,7 @@
       </div> 
 
       <!-- inner border -->
-      <div class="p-6 flex justify-between absolute  w-full">
+      <div class="p-6 flex justify-between absolute  w-full z-0">
         
         <!-- <div> -->
           <img src="../assets/border(3).svg" class="aspect-auto h-24 nborder-t-4 border-red-800" alt="" />

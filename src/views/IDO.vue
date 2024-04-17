@@ -7,7 +7,6 @@
 
             <div class="cbg-blue-500 w-fit pl-10 pr-10 rounded-2xl overflow-hidden sticky">
 
-                <P>PROFILE</P>
                 <Timeline />
             </div>
             

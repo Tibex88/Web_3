@@ -16,7 +16,7 @@ import Button from './Button.vue';
         </div>
 
     <!-- big -->
-    <div class="sm:block hidden cbg-laser mx-auto w-full h-fit py-8 px-20 pb-0">
+    <div class="sm:block hidden cbg-laser mx-auto w-full h-fit py-8 px-20 pb-0 z-[9999999] sticky">
         
         <div class="flex gap-10 justify-between">
         <!-- <div class="flex justify-around outline w-full gap-5"> -->
@@ -27,7 +27,13 @@ import Button from './Button.vue';
             <img src="../assets/pot3.png" class="aspect-square h-16" alt="" />
             <div class="flex w-full gap-10 pl-8">
             <!-- <div class="flex justify-around w-full gap-5"> -->
-            <p>Staking</p>
+            <p>
+                <fa icon="rocket" class="text-laser text-xl" />
+                Launch Pad</p>
+            <p class="text-start">
+                <img src="../assets/coin.png" class="h-6 aspect-square m-auto inline"  alt="">
+                Staking
+            </p>
             <p>Learn</p>
             </div>
         </div>
@@ -44,11 +50,20 @@ import Button from './Button.vue';
         <div class="flex justify-between items-center w-full">
             <div class="flex justify-end w-full gap-10 pr-8">
             <router-link 
+                class="text-red-500 cursor-pointer"
+                :to="{name:'home'}">
+                Home
+            </router-link>
+
+            <router-link 
             class="text-red-500 cursor-pointer"
-            :to="{name:'profile'}">Profile</router-link>
-            <p>Learn</p>
-            <p>Learn</p>
-            </div>
+            :to="{name:'profile'}">
+            Profile
+            </router-link>
+            
+            <!-- <p>Learn</p> -->
+            
+        </div>
             <!-- <p>Learn</p> -->
             <Button label="Connect Wallet" />
         </div> 

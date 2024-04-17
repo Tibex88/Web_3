@@ -9,9 +9,26 @@ import Tier from '../components/Tier.vue';
 <template>
       
       <div class="coutline h-fit flex flex-1">
-            <div class=" bg-blue-500 aspect-square w-full [] flex items-center justify-center">
-              <Wallet />
-            </div>
+            <div class=" cbg-blue-500 aspect-square w-full [] flex flex-col gap-10 items-statrtx justify-center">
+              <!-- <Wallet /> -->
+              <h2 class="text-6xl self-start  py-10">Welcome to </h2>
+              <p>Sophisticated. Balanced. Secure. Enabling the future of Web3. ChainGPT Pad is the
+                decentralized fundraising platform incubating and launching the next generation of
+                GameFi, AI, Infra, DeFi, DecSi, SocialFi projects.
+              </p>
+
+          <div class="flex gap-5  items-start">
+            <button>IDO pools </button>
+            <button>Stake </button>
+            <button>Get Notified </button>
+          </div>
+          <div class="grid grid-cols-3 items-center gap-5 divide-x ">
+                    <div class="pr-10">100 Projects</div>
+                    <div class="pl-10">12 Give Aways</div>
+                    <!-- <div class="pl-10">03</div> -->
+                </div>
+
+        </div>
             <div class="cbg-[url('../assets/hand1.png')] bg-contain w-full bg-center relative">
               <img src="../assets/coin.png" class="w-1/4 aspect-square m-auto absolute inset-0 -top-10 z-10"  alt="">
               <img src="../assets/hand1.png" class="scale-150 w-full aspect-square m-auto absolute inset-0"  alt="">

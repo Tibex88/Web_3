@@ -1,5 +1,5 @@
 <script setup>
-import Wallet from '../components/Wallet.vue'
+import Range from './Range.vue';
 const data = 
     [{
         title: 'upcoming',
@@ -27,32 +27,38 @@ const data =
 </script>
 
 <template>
-      <ol className="border-l border-neutral-300 dark:border-neutral-500">
-          <li v-for="(item, index) in data">
-            <div className="flex-start flex items-center pt-3">
-              <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-neutral-300 dark:bg-neutral-500"></div>
-              <h4 className="mb-1.5 text-xl font-semibold capitalize">
-                {{item.title}}
-              </h4>  
-            </div>
-            <div className="mb-6 ml-4 mt-2">
-                <p className="text-sm text-neutral-500 dark:text-neutral-300">
-                    <span> Interest Period </span>
-                    <span class="block">
-                        From {{item.from}} to  {{item.to}}
-                    </span>
-                </p>
-              <!-- <p className="mb-3 text-neutral-500 dark:text-neutral-300">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-                scelerisque diam non nisi semper, et elementum lorem ornare.
-                Maecenas placerat facilisis mollis. Duis sagittis ligula in
-                sodales vehicula.
-              </p> -->
-            </div>
-          </li>
-         
-      </ol>
+  <div class=" text-white text-start flex flex-col gap-2">
+    <p class="text-3xl  w-full">Swap Progress</p>
+    <!-- 
+    <input class="text-red-400 w-full" type="range" name="" id="">
+    <p class=" flex justify-between my-0">
+      <span> (86%)</span>
+      <span> 1,976,074/2,272,727</span>
+    </p> -->
+    <Range />
+  
+  <ol className="border-l border-neutral-300 dark:border-neutral-500">
+      <li v-for="(item, index) in data">
+        <div className="flex-start flex items-center pt-1">
+          <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-red-700"></div>
+          <h4 className="mb-1.5 text-xl font-semibold capitalize bg-slate-700/50 p-5 rounded-2xl">
+            {{item.title}}
+          </h4>  
+        </div>
+        <div className="mb-2 ml-4 mt-2">
+            <p className="text-sm text-neutral-500 dark:text-neutral-300">
+                <span> Interest Period </span>
+                <span class="block">
+                    From {{item.from}} to  {{item.to}}
+                </span>
+            </p>
+        </div>
+      </li>
+      
+  </ol>
 
-      <Wallet />
+</div>
+
+      <!-- <Wallet /> -->
 
 </template>
