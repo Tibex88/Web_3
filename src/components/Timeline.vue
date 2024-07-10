@@ -41,12 +41,12 @@ const data =
       <li v-for="(item, index) in data">
         <div className="flex-start flex items-center pt-1">
           <div className="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-red-700"></div>
-          <h4 className="mb-1.5 text-xl font-semibold capitalize bg-slate-700/50 p-5 rounded-2xl">
+          <h4 className="mb-1 text-sm font-semibold capitalize p-1">
             {{item.title}}
           </h4>  
         </div>
         <div className="mb-2 ml-4 mt-2">
-            <p className="text-sm text-neutral-500 dark:text-neutral-300">
+            <p className="text-xs text-neutral-500 dark:text-neutral-300">
                 <span> Interest Period </span>
                 <span class="block">
                     From {{item.from}} to  {{item.to}}

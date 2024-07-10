@@ -1,17 +1,16 @@
 <template>
     <!-- <p class="text-5xl">profile</p> -->
 
-    <div class=" flex flex-1 ">
+    <div class=" flex cflex-1 flex-col md:flex-row gap-6">
 
-        <div class="flex flex-col gap-10 coutline">
+        <div class="outline flex justify-center md:justify-normal flex-col gap-4  md:sticky top-0 h-fit">
 
-            <div class="cbg-blue-500 w-fit pl-10 pr-10 rounded-2xl overflow-hidden sticky">
-
+            <div class="p-5 md:csticky top-0">
                 <Timeline />
             </div>
             
-            <div class="cbg-red-500 w-fit h-fit p-10 flex flex-col gap-5">
-                <p class="mb-10">Please connect your wallet to participate</p>
+            <div class="cbg-red-500 w-fit h-fit px-10 flex flex-col gap-0">
+                <p class="">Please connect your wallet to participate</p>
                 <!-- <Wallet /> -->
                 <button class="outline outline-red-700 px-10">Connect Wallet</button>
             </div>
@@ -59,6 +58,7 @@
         </div>
         </div>
     </div>
+
 </template>
 
 <script setup>

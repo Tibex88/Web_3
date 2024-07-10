@@ -22,16 +22,7 @@
                         <p>Title</p>
                         <p v-for="i in 5">Features</p>
                     </div>
-                        <!-- <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p>
-                    <p>Features</p> -->
+
                 </div>
             </div>
         <!-- 

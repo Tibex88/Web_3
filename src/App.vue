@@ -10,12 +10,12 @@ import Footer from './components/Footer.vue';
 
   <div class="w-screen h-screen overflow-y-scroll bg-[url('./assets/bg.png')] bg-no-repeat bg-contain bg-fixed bg-center">
     
-  <div class="  fixed w-full z-[9] cbg-red-500 backdrop-filter backdrop-blur-lg ">
+  <div class="fixed w-full z-[9] cbg-red-500 backdrop-filter backdrop-blur-lg ">
       <Decor />
       <Nav />
   </div>
 <!-- home -->
-<div class="max-w-[1200px] pt-32 md:pt-44 m-auto flex flex-col gap-10 mt-10 ">
+<div class="max-w-[1200px] pt-20 md:pt-24 sm:px-4 px-8 m-auto flex flex-col gap-10 mt-10 ">
 
   <router-view />
  </div>
@@ -23,10 +23,4 @@ import Footer from './components/Footer.vue';
     <Footer />
   </div>
 
-
-
 </template>
-
-<style scoped>
-
-</style>

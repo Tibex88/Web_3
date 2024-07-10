@@ -7,8 +7,8 @@ import Button from './Button.vue';
     
     <!-- <div class="fixed"> -->
         <!-- small -->
-        <div class="sm:hidden block cbg-laser  w-full h-fit  py-8 px-20 pb-0">
-        <div class="flex justify-center mt-5">
+        <div class="lg:hidden block cbg-laser  w-full h-fit  py-4 px-20 pb-0">
+        <div class="flex justify-center my-3">
             <!-- <p>Menu</p> -->
             <fa class="text-lg bg-white text-black p-2 rounded-full aspect-suare" icon="bars"/>
             <!-- <button class="bg-transparent border-white border-4 rounded-none">Menu</button> -->
@@ -16,7 +16,7 @@ import Button from './Button.vue';
         </div>
 
     <!-- big -->
-    <div class="sm:block hidden cbg-laser mx-auto w-full h-fit py-8 px-20 pb-0 z-[9999999] sticky">
+    <div class="lg:block hidden cbg-laser mx-auto w-full h-fit py-0 px-20 pb-0 z-[9999999] sticky">
         
         <div class="flex gap-10 justify-between">
         <!-- <div class="flex justify-around outline w-full gap-5"> -->
